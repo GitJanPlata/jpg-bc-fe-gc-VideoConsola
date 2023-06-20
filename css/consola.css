@@ -1,3 +1,16 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(155, 0, 155);
+    z-index: -2;
+}
+
+.container {
+    display: flex;
+}
 .gameboy {
     width: 240px;
     height: 400px;
@@ -36,8 +49,8 @@
     margin-top: -6px;
 }
 .in-screen {
-    width: 70%;  /* ajusta según sea necesario */
-    height: 70%;  /* ajusta según sea necesario */
+    width: 70%;  
+    height: 70%;  
     background-color: rgb(182, 175, 163);
     margin-bottom: 30px;
     
@@ -45,11 +58,11 @@
 .imagen-inferior {
     position: absolute;
     bottom: -5%;
-    width: 60%; /* ajusta según sea necesario */
-    height: auto; /* para mantener las proporciones de la imagen */
+    width: 60%; 
+    height: auto; 
 }
 .power_logo{
-    margin-top: -80px; /* Ajusta este valor para subir o bajar la imagen */
+    margin-top: -80px; 
     margin-left: -28px;
     margin-right: 4px;
     width: 10%;
@@ -145,7 +158,7 @@
 #boton2 {
     position: absolute;
     top: 0px;
-    bottom: 20px; /* Ajusta este valor para mover el botón 2 verticalmente */
+    bottom: 20px;
     background-color: #333;
     right: 10px;
 }
